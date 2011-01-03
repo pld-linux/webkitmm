@@ -23,7 +23,7 @@ you a comfortable C++ API and allows webkit to be integrated
 seamlessly with gtkmm.
 
 %package devel
-Summary:	gtkmm and gdkmm header files
+Summary:	webkitmm header files
 Group:		X11/Development/Libraries
 BuildRequires:	glibmm-devel >= 2.16.0
 BuildRequires:	gtk-webkit-devel >= 1.1.7
