@@ -25,10 +25,10 @@ seamlessly with gtkmm.
 %package devel
 Summary:	webkitmm header files
 Group:		X11/Development/Libraries
-BuildRequires:	glibmm-devel >= 2.16.0
-BuildRequires:	gtk-webkit-devel >= 1.1.7
-BuildRequires:	gtkmm-devel >= 2.10.0
 Requires:	%{name} = %{version}-%{release}
+Requires:	glibmm-devel >= 2.16.0
+Requires:	gtk-webkit-devel >= 1.1.7
+Requires:	gtkmm-devel >= 2.10.0
 
 %description devel
 Header files for webkitmm library.
